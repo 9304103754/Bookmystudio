@@ -1,0 +1,143 @@
+/* General styles */
+.footer-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  
+  /* Desktop view */
+  .desktop-view {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .desktop-view {
+      display: block;
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      padding: 72px 147px;
+      height: 318px;
+    }
+  
+    .logo-container {
+      display: flex;
+      gap: 5px;
+    }
+  
+    .logo-image {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .logo-text {
+      color: rgba(255, 255, 255, 1);
+    }
+  
+    .logo-title {
+      font-size: 10px;
+      font-weight: 700;
+    }
+  
+    .logo-subtitle {
+      font-size: 16px;
+      font-weight: 700;
+    }
+  
+    .footer-links {
+      display: flex;
+      gap: 9px;
+    }
+  
+    .footer-section {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 1);
+    }
+  
+    .link-item {
+      font-size: 14px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+      cursor: pointer;
+      padding: 3px 0;
+      white-space: nowrap;
+    }
+  
+    .footer-bottom {
+      background-color: rgba(42, 42, 42, 1);
+      height: 49px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .footer-text {
+      font-size: 16px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  
+  /* Mobile view */
+  .mobile-view {
+    display: block;
+  }
+  
+  @media (min-width: 1024px) {
+    .mobile-view {
+      display: none;
+    }
+  }
+  
+  .dropdown-section {
+    width: 345px;
+    margin-top: 24px;
+  }
+  
+  .dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  
+  .dropdown-item {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    background-color: rgba(42, 42, 42, 1);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+  

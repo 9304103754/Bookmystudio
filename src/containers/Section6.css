@@ -1,0 +1,143 @@
+/* Section6.css */
+
+.section6-container {
+    width: 100vw;
+    padding: 100px 4px 50px;
+    box-sizing: border-box;
+  }
+  
+  .section6-container {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  @media (min-width: 1024px) {
+    .section6-container {
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+  }
+  
+  .section6-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .section6-heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .section6-box {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0px 4px 26.5px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+  }
+  
+  .section6-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 25px;
+  }
+  
+  .section6-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border: 1px solid transparent;
+    border-radius: 72px;
+    color: #fff;
+  }
+  
+  .section6-item1 {
+    background-color: rgba(8, 28, 7, 1);
+  }
+  
+  .section6-item2 {
+    background-color: rgba(13, 48, 10, 0.61);
+  }
+  
+  .section6-item3 {
+    background-color: rgba(26, 26, 26, 0.94);
+  }
+  
+  .section6-icon {
+    width: 78px;
+    height: 78px;
+  }
+  
+  .section6-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section6-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.74);
+  }
+  
+  .section6-value {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.91);
+  }
+  
+  .section6-divider {
+    display: none;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  
+  @media (min-width: 1024px) {
+    .section6-divider {
+      display: block;
+      width: 1px;
+      height: 650px;
+    }
+  }
+  
+  .section6-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    background-color: #fff;
+  }
+  
+  .section6-connect {
+    text-align: center;
+  }
+  
+  .section6-connect-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(8, 28, 7, 1);
+    margin-top: 45px;
+  }
+  
+  .section6-connect-heading {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .section6-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section6-button-text {
+    width: 38px;
+    height: 21px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+  }
+  

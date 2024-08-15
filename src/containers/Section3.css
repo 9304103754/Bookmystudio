@@ -1,0 +1,144 @@
+.section3-container {
+    width: 100vw;
+    padding-left: 128px;
+    padding-right: 128px;
+    margin-top: 0;
+  }
+  
+  .section3-inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 15px;
+  }
+  
+  .section3-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    border-radius: 27px;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.09);
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  
+  .section3-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+  }
+  
+  .section3-tab-container {
+    position: relative;
+    display: flex;
+  }
+  
+  .section3-tab {
+    position: absolute;
+    z-index: 10;
+    width: 170px;
+    height: 43px;
+    padding: 12px;
+    border: 1px solid rgba(238, 241, 246, 1);
+    border-radius: 37px;
+    background-color: rgba(238, 241, 246, 1);
+    color: rgba(8, 28, 7, 1);
+    cursor: pointer;
+  }
+  
+  .section3-tab.active {
+    z-index: 20;
+    background-color: rgba(13, 48, 10, 0.97);
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .section3-tab-text {
+    width: 148px;
+    height: 19px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19.36px;
+  }
+  
+  .section3-description {
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 350px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: rgba(101, 101, 101, 1);
+  }
+  
+  .section3-description.visible {
+    z-index: 10;
+  }
+  
+  .section3-description.hidden {
+    z-index: 20;
+  }
+  
+  .section3-paragraph {
+    width: 342px;
+    height: 147px;
+    font-weight: 500;
+  }
+  
+  .section3-value {
+    width: 338px;
+    height: 63px;
+    font-weight: 600;
+  }
+  
+  .highlight {
+    color: rgba(8, 28, 7, 1);
+  }
+  
+  .section3-image-container {
+    display: none;
+    padding-bottom: 30px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .section3-container {
+      padding-left: 128px;
+      padding-right: 128px;
+    }
+  
+    .section3-inner-container {
+      margin-left: 0;
+    }
+  
+    .section3-content {
+      height: 633px;
+      padding-left: 40px;
+    }
+  
+    .section3-description {
+      width: 550px;
+    }
+  
+    .section3-paragraph {
+      width: 517px;
+      height: 105px;
+    }
+  
+    .section3-value {
+      width: 519px;
+      height: 42px;
+    }
+  
+    .section3-image-container {
+      display: flex;
+    }
+  }
+  

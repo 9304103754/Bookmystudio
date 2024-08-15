@@ -1,0 +1,76 @@
+/* Card Container */
+.card-container {
+    position: relative;
+    z-index: 10;
+    width: 214px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 24.2px 9px rgba(13, 48, 10, 0.08);
+    padding: 10px;
+  }
+  
+  @media (min-width: 640px) {
+    .card-container {
+      height: 214px;
+    }
+  }
+  
+  /* Card Icon and Title */
+  .card-icon-title {
+    width: 175px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .card-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(13, 48, 10, 0.1);
+    border-radius: 50px;
+    box-shadow: 0px 0px 24px 0px rgba(13, 48, 10, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-title {
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(8, 28, 7, 1);
+  }
+  
+  @media (min-width: 640px) {
+    .card-title {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  
+  /* Card Description */
+  .card-description {
+    width: 173px;
+    height: 84px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(52, 52, 52, 1);
+  }
+  
+  @media (min-width: 640px) {
+    .card-description {
+      width: 167px;
+      height: 104px;
+      font-size: 16px;
+    }
+  }
+  
